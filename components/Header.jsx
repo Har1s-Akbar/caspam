@@ -6,7 +6,7 @@ import Link from 'next/link'
 function Header({data}) {
   const {image, text,} = data[0]
   return (
-    <section className='lg:mt-40 mt-10'>
+    <section className='lg:mt-40 mt-24'>
       <Row align="middle"  justify='end'>
         <Col  lg={{span: 10}} xs={{span:24}} style={{color: "mintcream"}}>
           <h1 className='lg:text-3xl sm:ml-10' style={{color: 'mintcream'}}>{text[0]}</h1>
