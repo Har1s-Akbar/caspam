@@ -12,7 +12,8 @@ import explore from './explore'
 import post from './posts'
 import pdetail from './pdetail'
 import blockContent from './blockContent'
-
+import conatct from './contact'
+import contact from './contact'
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -29,6 +30,7 @@ export default createSchema({
     explore,
     post,
     pdetail,
+    contact,
     blockContent,
   ]),
 })
